@@ -1,0 +1,58 @@
+/*
+colors:
+darkBlue:  #1482cc
+lightBlue: #00ffdd
+black:     #383838
+white:     #ffffff
+*/
+
+body{
+    margin: 0px;
+    font-family: 'Abel';font-size: 22px;
+    background-color: #383838;
+}
+
+.setor{
+    background-color: #1482cc;
+    width: 100%;
+    height: auto;
+}
+
+.total{
+    max-width: 990px;
+    margin: auto;
+}
+
+nav{
+    padding-top:8px;
+    margin-bottom:20px;
+    width: 100%;
+    height: 35px;
+    background-color: #1482cc;
+    text-align: left;
+}
+
+nav a{
+    color: #ffffff;
+    font-size:1.3rem;
+    text-decoration: none;
+    margin: 0px 10px; 
+}
+
+p{
+    color: #ffffff;
+    text-align: justify;
+}
+
+#home{
+   padding-top:10px;
+}
+
+#logo{
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
