@@ -302,6 +302,9 @@ nav a:hover {
     transition: 0.5s;
 }
 
+
+/*humburger menu*/
+
 .hamburger{
     position: relative;
     width: 30px;
@@ -371,10 +374,10 @@ nav a:hover {
         transition: 0.4s;
         display: block;
         position: absolute;
-        right: -50%;
+        right: -55%;
         top: 0px;
         height: 400px;
-        border-bottom-left-radius: 10%;
+        border-bottom-left-radius: 20px;
         text-align: center;
         box-shadow: 0px 0px 10px var(--lightBlue);
     }
@@ -391,4 +394,15 @@ nav a:hover {
 }
 #navegacao input:checked ~ #botoes{
     right: 0;
+}
+/* fotos dos membros */
+#profiles{
+    width: 70%;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px){
+    #profiles{
+        width: 50%;
+    }
 }
