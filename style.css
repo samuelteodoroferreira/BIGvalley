@@ -130,6 +130,9 @@ nav a:hover {
     #logo img {
         width: 90%;
     }
+    #particles-js{ 
+        height: 250px!important;
+    } 
 }
 
 
@@ -405,4 +408,40 @@ nav a:hover {
     #profiles{
         width: 50%;
     }
+}
+
+
+
+/* particulas */
+
+canvas{ 
+    display: block;
+    vertical-align: bottom;
+    width: 100%;
+    height: 100%;
+}
+ /* ---- particles.js container ---- */ 
+ #particles-js{ 
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%; height: 350px; 
+    background-repeat: no-repeat;
+} 
+
+ /* ---- stats.js ---- */
+ .count-particles{ 
+    display: none;
+} 
+.js-count-particles{ 
+    display: none;
+ } 
+#stats, .count-particles{ 
+    display: none;
+}
+#stats{ 
+    display: none;
+} 
+.count-particles{ 
+    display: none;
 }
