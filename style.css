@@ -445,3 +445,7 @@ canvas{
 .count-particles{ 
     display: none;
 }
+
+.margemBaixo{
+    margin-bottom:-20px;
+}
